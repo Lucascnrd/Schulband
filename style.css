@@ -147,17 +147,11 @@ aside {
     padding-right: 10px;
     width: 300px;
     float: right;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 35px;
-    background-color: #444444;
+    background-color: #eeeeee;
     border-radius: 15px;
-}
-
-aside h3 {
-    font-size: 17pt;
-    padding-bottom: 10px;
-    font-variant: small-caps;
-    padding-top: 25px;
+    margin-top: 40px;
 }
 
 #myBtn {
@@ -256,4 +250,75 @@ h4 {
     padding: 10px;
     border-radius: 7px;
 }
+
+Footer {
+    clear: both;
+    background-color: #4d4d4d75;
+    color: white;
+    text-align: center;
+    box-shadow: 50px gray;
+}
+
+Footer p{
+    padding: 10px;
+    text-align: center;
+}
+
+footer p a{
+    color:wheat
+}
+
+.linking {
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+h6 {
+    font-size: 20px
+}
+
+.linking th{
+    padding-top: 20px;
+    letter-spacing: 30px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.linking p{
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.linking a{
+    color: black;
+}
+
+.Instalink img{
+    width: 50px;
+    max-width: 100%;
+    align-items: center;
+    margin-left: 125px;
+}
+
+aside h3 {
+    font-size: 17pt;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+    padding-top: 20px;
+    text-align: center;
+}
+aside h5{
+    font-size: 17pt;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+aside p{
+    line-height: 30px;
+    text-align: center;
 }
