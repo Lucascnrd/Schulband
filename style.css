@@ -81,7 +81,7 @@ nav ul li ul{
 }
 
 nav ul li:hover ul{
-    display: block;
+    display:block
 }
 
 nav ul li ul li a {
@@ -144,7 +144,7 @@ video {
 
 aside {
     text-align: center;
-    padding-right: 10px;
+    padding-right: 25px;
     width: 300px;
     float: right;
     color: rgb(0, 0, 0);
@@ -174,56 +174,12 @@ aside {
     background-color: #555;
   }
 
-  .Insta img{
+.Insta img{
     bottom: 20px;
     left: 20px;
     position: fixed;
     width: 50px;
     max-width: 100%;
-  }
-
-  .calendar_link {
-	font-family: Arial;
-	font-size: 12px;
-	text-align: center;
-	color: #000000;
-	text-decoration: none;
-}
-
-.calendar_head {
-	font-family: Arial;
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	width: 25px;
-    background-color: white;
-}
-
-.calendar_head_month {
-	font-family: Arial;
-	font-size: 15px;
-	font-weight: bold;
-	text-align: center;
-	width: 25px;
-	background-color: #0066FF;
-	color: #FFFFFF;
-}
-
-.calendar_day {
-	font-family: Arial;
-	font-size: 14px;
-	font-weight: bold;
-	text-align: center;
-	width: 25px;
-	color: #FFFFFF;
-	background-color: #000000;
-}
-
-.calendar_entry {
-	font-family: Arial;
-	font-size: 12px;
-	text-align: center;
-    background-color: white;
 }
 
 .date {
@@ -241,7 +197,7 @@ aside {
     line-height: 20px
 }
 
-h4 {
+.Weiterleitung h4{
     background-color: #000000;
     margin-top: 20px;
     display: block;
@@ -249,6 +205,10 @@ h4 {
     margin-right: 595px;
     padding: 10px;
     border-radius: 7px;
+}
+
+.Weiterleitung a{
+    color: black
 }
 
 Footer {
