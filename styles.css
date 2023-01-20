@@ -1,0 +1,143 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    margin: 14px;
+}
+
+.mitte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Startseite {
+    width: 100%;
+    height: 300px;
+}
+
+#Startseite img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+}
+
+nav {
+    width: 100%;
+    height: 99px;
+    background-color: lightgray;
+    box-shadow: 2px 2px 4px black;
+}
+
+nav ul {
+    float: right
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 28px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li a {
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+nav ul li ul li a:hover {
+    background-color: black;
+}
+
+section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+section h1 {
+    font-size: 40;
+}
+
+section p {
+    color: red;
+}
+
+#Formular {
+    width: 100%;
+    height: 300px;
+}
+
+#Formular img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+}
+
+#Kontak {
+    width: 100%;
+    height: 300px;
+}
+
+#Kontak img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+}
+
+#Projekt {
+    width: 100%;
+    height: 300px;
+}
+
+#Projekt img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+}
+
+#Servic {
+    width: 100%;
+    height: 300px;
+}
+
+#Servic img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+}
