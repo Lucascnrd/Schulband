@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
 }
 .main{
@@ -19,7 +18,7 @@ body{
     height: 1500px;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #FFFFFF ;
 } 
 
@@ -58,7 +57,6 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 13px;
     text-decoration: none;
@@ -77,7 +75,6 @@ nav ul li ul{
     padding: 0px;
     border-radius: 0px 0px 5px 5px;
     border-top: gray;
-    border
 }
 
 nav ul li:hover ul{
@@ -105,11 +102,9 @@ nav ul li ul li a:hover {
     color: white;
     text-align: center;
     font-size: clamp(1rem, 1.5vw, 2rem);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
 .Intro p{
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .Blog {
@@ -149,9 +144,8 @@ aside {
     float: right;
     color: rgb(0, 0, 0);
     padding: 35px;
-    background-color: #eeeeee;
     border-radius: 15px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 #myBtn {
@@ -185,7 +179,6 @@ aside {
 .date {
     font-size: 13px;
     color: #555;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .letter {
@@ -193,7 +186,6 @@ aside {
     font-weight: lighter;
     padding-top: 15px;
     padding-right: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 20px
 }
 
@@ -202,7 +194,7 @@ aside {
     margin-top: 20px;
     display: block;
     color: white;
-    margin-right: 595px;
+    margin-right: 610px;
     padding: 10px;
     border-radius: 7px;
 }
@@ -231,12 +223,13 @@ footer p a{
 .linking {
     float: left;
     padding-left: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     padding-top: 20px;
 }
 
 h6 {
-    font-size: 20px
+    font-size: 20px;
+    text-align: center;
 }
 
 .linking th{
@@ -250,7 +243,7 @@ h6 {
 .linking p{
     color: white;
     padding-left: 30px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .linking a{
@@ -264,21 +257,108 @@ h6 {
     margin-left: 125px;
 }
 
-aside h3 {
+h3 {
     font-size: 17pt;
-    padding-bottom: 10px;
-    font-variant: small-caps;
-    padding-top: 20px;
-    text-align: center;
-}
-aside h5{
-    font-size: 17pt;
-    padding-bottom: 10px;
-    font-variant: small-caps;
-    text-align: center;
+    font-weight: 1000;
 }
 
 aside p{
     line-height: 30px;
     text-align: center;
+    font-weight: 1000;
+}
+
+.Bildergallerie img{
+    text-align: center;
+}
+
+.Schnellnavigation ul li{
+    display: block;
+    color: black;
+    text-align: center;
+}
+.image {
+    transition: filter 0.9s;
+}
+
+.image:hover {
+    filter: blur(3px);
+}
+
+.Gallerie_Show {
+    color: #7000CD ;
+    text-align: center;
+}
+
+.Gallerie_Show p{
+    text-align: center;
+    font-size: 25px;
+    color: #270030 ;
+}
+
+.Tabelle {
+    padding-top: 20px;
+}
+
+.Gallerie_Post2 h3{
+    text-align: right;
+}
+
+.date2 p{
+    font-size: 13px;
+    color: #555;
+    text-align: right;
+}
+
+.impressumtb {
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.terminkalender {
+    background-color: #dddddd;
+    border-radius: 9px;
+    margin-top: 30px;
+}
+
+.terminkalender h3{
+text-align: center;
+padding-left: 15px;
+text-decoration: underline;
+}
+
+.terminkalender iframe{
+    padding-left: 155px;
+    padding-top: 10px;
+}
+
+.terminkalender2 {
+    background-color: #dddddd;
+    border-radius: 9px;
+    margin-top: 30px;
+}
+
+.terminkalender2 h3{
+text-align: center;
+padding-left: 90px;
+text-decoration: underline;
+}
+
+.terminkalender2 iframe{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.terminkalender2 img{
+    padding-left: 60px;
+}
+
+.VorstellungHS h6{
+    font-size: 100px;
+}
+
+.VorstellungHS h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px
 }

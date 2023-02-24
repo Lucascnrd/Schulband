@@ -28,7 +28,7 @@ function Animation () {
     i = 0;
   document.images[1].src = b[i].src;
   i = i + 1;
-  window.setTimeout("Animation()", 7000);
+  window.setTimeout("Animation()", 8000);
 }
 
 window.setTimeout("Animation()", 1000);
